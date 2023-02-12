@@ -13,9 +13,14 @@ when it has downloaded in windows file explorer right click run with PowerShell
 
 **Method 2**
 In windows start Menu, look for PowerShell, open it, paste the following link and press enter. In a minute it will be installed.
-##### Quick download link
-Short Link
+### Quick download link, is the same link but shortener
+**Short Link**
+
     iwr -useb http://urlr.me/9yjwn|iex
-Long Link
-    iwr -useb https://raw.githubusercontent.com/kazukikasama/youtube-dlp-gui-installer/main/yt-dlp-gui-installer.ps1|iex
+
+**Long Link**
+   
+
+     iwr -useb https://raw.githubusercontent.com/kazukikasama/youtube-dlp-gui-installer/main/yt-dlp-gui-installer.ps1|iex
+
 
