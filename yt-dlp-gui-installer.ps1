@@ -7,7 +7,7 @@ mkdir $Env:LOCALAPPDATA\yt-dlp-gui
 #Download yt-dlp, ffmpeg and yt-dlp-gui from official sites current releases
 Invoke-WebRequest https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe  -OutFile $Env:LOCALAPPDATA\yt-dlp-gui\yt-dlp.exe
 Invoke-WebRequest https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip -OutFile $Env:LOCALAPPDATA\yt-dlp-gui\ffmpeg.zip
-Invoke-WebRequest https://github.com/kannagi0303/yt-dlp-gui/releases/download/2022.11.29/yt-dlp-gui.exe -OutFile $Env:LOCALAPPDATA\yt-dlp-gui\yt-dlp-gui.exe
+Invoke-WebRequest https://github.com/kannagi0303/yt-dlp-gui/releases/latest/download/yt-dlp-gui.exe -OutFile $Env:LOCALAPPDATA\yt-dlp-gui\yt-dlp-gui.exe
 
 #extract ffmpeg
 Expand-Archive $Env:LOCALAPPDATA\yt-dlp-gui\ffmpeg.zip -DestinationPath $Env:LOCALAPPDATA\yt-dlp-gui\
