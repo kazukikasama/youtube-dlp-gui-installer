@@ -28,11 +28,14 @@ In windows start Menu, look for PowerShell, open it, paste the following link an
 Paste in PowerShell short or long link
 **short link**
 
-    iwr -useb http://urlr.me/97zG6|iex
+    iwr -useb https://urlr.me/97zG6|iex
 
 **Long Link**
 
     iwr -useb https://raw.githubusercontent.com/kazukikasama/youtube-dlp-gui-installer/main/yt-dlp-gui-uninstaller.ps1|iex
+    
+**Windows SERVER FIRST USE:**
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 **Or**
 [save this link (right click save as)](https://raw.githubusercontent.com/kazukikasama/youtube-dlp-gui-installer/main/yt-dlp-gui-uninstaller.ps1) when it has downloaded in windows file explorer right click run with PowerShell
