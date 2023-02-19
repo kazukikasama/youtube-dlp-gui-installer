@@ -47,4 +47,4 @@ New-ItemProperty -Path $key -Name "DisplayIcon" -Value "$Env:LOCALAPPDATA\yt-dlp
 New-ItemProperty -Path $key -Name "DisplayName" -Value "Youtube DLP-GUI Downloader”  -PropertyType "String"
 New-ItemProperty -Path $key -Name "InstallLocation" -Value "$Env:LOCALAPPDATA\yt-dlp-gui”  -PropertyType "String"
 New-ItemProperty -Path $key -Name "Publisher" -Value "https://github.com/kazukikasama/youtube-dlp-gui-installer”  -PropertyType "String"
-New-ItemProperty -Path $key -Name "UninstallString" -Value "powershell iwr -useb https://urlr.me/97zG6|iex”  -PropertyType "String"
+New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\yt-dlp-gui -Name "UninstallString" -Value "powershell iwr -useb https://urlr.me/97zG6|iex”  -PropertyType "String"
