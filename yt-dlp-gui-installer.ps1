@@ -40,6 +40,7 @@ $Shortcut.TargetPath="$Env:LOCALAPPDATA\yt-dlp-gui\yt-dlp-gui.exe"
 $Shortcut.Arguments=""
 $Shortcut.IconLocation="$Env:LOCALAPPDATA\yt-dlp-gui\yt-dlp-gui.exe"
 $Shortcut.Save()
+
 #make uninstaller Entry Through Settings (default windows option for remove programs)
 $key = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\yt-dlp-gui"
 New-Item -Path $key
