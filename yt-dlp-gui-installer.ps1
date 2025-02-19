@@ -6,7 +6,7 @@ mkdir $Env:LOCALAPPDATA\yt-dlp-gui
 
 #Download aria2, yt-dlp, ffmpeg and yt-dlp-gui from official sites current releases
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-Invoke-WebRequest https://github.com/aria2/aria2/releases/download/release-1.36.0/aria2-1.36.0-win-32bit-build1.zip -OutFile $Env:LOCALAPPDATA\yt-dlp-gui\aria2.zip
+Invoke-WebRequest https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-32bit-build1.zip -OutFile $Env:LOCALAPPDATA\yt-dlp-gui\aria2.zip
 Expand-Archive $Env:LOCALAPPDATA\yt-dlp-gui\aria2.zip -DestinationPath $Env:LOCALAPPDATA\yt-dlp-gui\
 Copy-Item -Path "$Env:LOCALAPPDATA\yt-dlp-gui\aria2-1.36.0-win-32bit-build1\aria2c.exe" -Destination "$Env:LOCALAPPDATA\yt-dlp-gui"
 
