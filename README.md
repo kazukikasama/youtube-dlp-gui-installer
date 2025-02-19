@@ -14,12 +14,10 @@ when it has downloaded in windows file explorer right click run with PowerShell
 
 **Method 2**
 In windows start Menu, look for PowerShell, open it, paste the following link and press enter. In a minute it will be installed.
-### Quick download link, is the same link but shortener
-**Short Link**
+### Quick download link.
 
-    iwr -useb http://urlr.me/9yjwn|iex
 
-**Long Link**
+**Link**
    
 
      iwr -useb https://raw.githubusercontent.com/kazukikasama/youtube-dlp-gui-installer/main/yt-dlp-gui-installer.ps1|iex
@@ -29,11 +27,8 @@ In windows start Menu, look for PowerShell, open it, paste the following link an
     
 ## For Uninstall
 Paste in PowerShell short or long link
-**short link**
 
-    iwr -useb https://urlr.me/97zG6|iex
-
-**Long Link**
+**Link**
 
     iwr -useb https://raw.githubusercontent.com/kazukikasama/youtube-dlp-gui-installer/main/yt-dlp-gui-uninstaller.ps1|iex
    
