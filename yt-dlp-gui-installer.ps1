@@ -21,7 +21,7 @@ Expand-Archive $Env:LOCALAPPDATA\yt-dlp-gui\ffmpeg.zip -DestinationPath $Env:LOC
 Copy-Item -Path "$Env:LOCALAPPDATA\yt-dlp-gui\ffmpeg-master-latest-win64-gpl\bin\*" -Destination "$Env:LOCALAPPDATA\yt-dlp-gui"
 remove-item -fo $Env:LOCALAPPDATA\yt-dlp-gui\ffmpeg-master-latest-win64-gpl -recurse
 remove-item -fo $Env:LOCALAPPDATA\yt-dlp-gui\ffmpeg.zip -recurse
-remove-item -fo $Env:LOCALAPPDATA\yt-dlp-gui\aria2-1.36.0-win-32bit-build1 -recurse
+remove-item -fo $Env:LOCALAPPDATA\yt-dlp-gui\aria2-1.37.0-win-32bit-build1 -recurse
 remove-item -fo $Env:LOCALAPPDATA\yt-dlp-gui\aria2.zip -recurse
 
 #make shorcut in Destop
